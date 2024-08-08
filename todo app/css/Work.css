@@ -1,0 +1,22 @@
+#footer{
+    position: relative;
+    top: 200px;
+}
+
+.colormagic{
+    background: linear-gradient(#97e6cd,#bde697);
+}
+
+#mybox{
+    text-align: center;
+    border-radius: 20%;
+}
+.x{
+    font-weight: bolder;
+}
+@media(max-width : 215px){
+.y{
+display: list-item;
+}
+}
+

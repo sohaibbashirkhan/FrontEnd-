@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Metric Conversion | Volume</title>
+    <link rel="icon" type="image/x-icon" href="image/unnamed.png">
+
+    <link rel="styleheet" href="css/all.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+ 
+      .card{
+       background-color: transparent;
+       margin: auto;
+      }
+     </style>
+  </head>
+  <body class="bg-dark">
+                    <!-- nav sight -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/unnamed.png" class="raja" width="40px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="length.html">Length</a></li>
+              <li><a class="dropdown-item" href="area.html">Area</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="volume.html">Volume</a></li>
+              <li><a class="dropdown-item" href="mass.html">Mass</a></li>
+              <li><a class="dropdown-item" href="tempreture.html">Tempreture</a></li>
+            </ul>
+
+          <li class="nav-item"> 
+            <a class="nav-link" href="../faq.html">FAQ,s</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+                                       <!-- button sight -->
+
+                                       <div class="card mt-5" style="width: 19rem;">
+                                        <div class="convert-body text-light">
+
+
+                                        <h1 class="converter-tittle ">Volume Converter</h1>
+                                        <input  type="text" placeholder="Input" id="input">
+                                        
+                                        <input class="mt-3" type="text" placeholder="Result" id="result">
+                                    
+                                    
+                                    
+                                        <select class="mt-3" id="inputType">
+                                            <option value="inches">Fluid Ounces</option>
+                                            <option value="feet">Gallon</option>
+                                            <option value="yards">Cubic Feet</option>
+                                            <option value="miles">Cubic yards</option>
+                                        </select>
+                                    
+                                    
+                                        <select class="mt-3" id="resultType">
+                                            <option value="millimeters">Millimeters</option>
+                                            <option value="meters">Liters</option>
+                                            <option value="meters">Cubic Meters</option>
+                                            <option value="kilometers">Cubic Meters</option>
+                                        </select>
+                                    
+                                    
+                                    </div>
+                                    </div>
+                                    <br><br><br><br><br><br><br>
+                                    <!-- footer sight -->
+  <footer class="footer-distributed">
+      
+
+<div class="footer-left">
+                                
+<h3>Matric<span>conversion</span></h3>
+                                
+        <p class="footer-links">
+<a href="../index.html" class="link-1">Home</a>
+                                          
+                                          
+                                        
+<a href="../about.html">About</a>
+                                          
+<a href="../faq.html">FAQ,s</a>
+                                          
+<a href="../contact.html">Contact</a>
+                                
+<a href="../articale.html">Artical</a>
+                                
+<a href="../measurement.html">Measurement history</a>
+</p>
+<p class="footer-company-name">© 2022 All Rights Reserved </p>
+</div>
+                                
+<div class="footer-center">
+
+<div>
+<i class="fa fa-map-marker"></i>
+<p><span>Aptech center</span> DHA Phase 2, Karachi</p>
+</div>
+                                
+<div>
+<i class="fa fa-phone"></i>
+<p>+093452396416</p>
+</div>
+                                
+<div>
+<i class="fa fa-envelope"></i>
+<p><a href="mailto:support@company.com">help center @support.com</a></p>
+  </div>
+                                
+ </div>
+                                
+<div class="footer-right">
+                                
+<p class="footer-company-about">
+<span>About us</span>
+Whilst every effort has been made to ensure the accuracy of the metric calculators and charts given on this site, we cannot make a guarantee or be held responsible for any errors that have been made. If you spot an error on this site, we would be grateful if you could report it to us by using the contact link at the top of this page and we will endeavour to correct it as soon as possible.
+</p>
+                                
+<div class="footer-icons">
+
+<a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://twitter.com/login"><i class="fa-brands fa-twitter"></i></a>
+<a href="https://www.linkedin.com/login"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://github.com/login"><i class="fa-brands fa-github"></i></a>
+                                
+</div>
+                                
+</div>
+                                
+</footer>
+
+</body>
+<script src="js/all.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+  var input = document.getElementById('input');
+var result = document.getElementById('result');
+var inputType = document.getElementById('inputType');
+var resultType = document.getElementById('resultType');
+var inputTypeValue,resultTypeValue;
+
+
+
+// now add listener
+input.addEventListener("keyup",myResult);
+inputType.addEventListener("change",myResult);
+resultType.addEventListener("change",myResult);
+
+
+// taking initial value
+inputTypeValue = inputType.value;
+resultTypeValue = resultType.value;
+
+
+
+function myResult(){
+
+   // when we change the input and output type value we need to updata the inputTypeValue and resultTypeValue 
+  
+  
+   inputTypeValue = inputType.value;
+   resultTypeValue = resultType.value;
+
+  // now compare the input and resulttype value and add formula
+
+
+  if(inputTypeValue === "inches" && resultTypeValue==="millimeters"){
+
+      // this is inch to millimeter formula
+      result.value = Number(input.value) * 29.57353;
+  }else if(inputTypeValue === "inches" && resultTypeValue==="meters"){
+
+      // this is inch to meter formula
+      result.value = Number(input.value) * 0.029574;
+  }
+
+  else if(inputTypeValue === "inches" && resultTypeValue==="meters"){
+
+    // this is inch to meter formula
+    result.value = Number(input.value) * 2.9574;
+} 
+
+
+else if(inputTypeValue === "inches" && resultTypeValue==="kilometers"){
+
+    // this is inch to kilometer formula
+    result.value = Number(input.value) * 2.9574;
+} else if(inputTypeValue === "inches" && resultTypeValue==="inches"){
+
+    // this is inch to inch formula
+     result.value = input.value
+   }
+
+
+
+  if(inputTypeValue === "feet" && resultTypeValue==="millimeters"){
+    //  this is feet to millimeter formula
+    result.value = Number(input.value) * 3,785.411784;
+  }else if(inputTypeValue === "feet" && resultTypeValue==="meters"){
+    // this is feet to meter formula
+    result.value = Number(input.value) * 3.785412; 
+  }else if(inputTypeValue === "feet" && resultTypeValue==="meters"){
+     // this is feet to meter formula
+     result.value = Number(input.value) * 0.003785;
+  } else if(inputTypeValue === "feet" && resultTypeValue==="kilometers"){
+   // this is feet to meter formula
+   result.value = Number(input.value) * 0.003785;
+  }  else if(inputTypeValue === "feet" && resultTypeValue==="feet"){
+
+   // this is feet to feet formula
+    result.value = input.value
+  }
+
+
+  if(inputTypeValue === "yards" && resultTypeValue==="millimeters"){
+     // this is yard to millimeter formula
+     result.value = Number(input.value) * 28,316.846592;
+  }else if(inputTypeValue ==="yards" && resultTypeValue==="meters"){
+     // this is yard to meter formula
+     result.value = Number(input.value) * 28.317;
+  }else if(inputTypeValue === "yards" && resultTypeValue==="meters"){
+     // thsi is yard to meter formula
+     result.value = Number(input.value) * 0.141584233;
+  }else if(inputTypeValue === "yards" && resultTypeValue==="kilometers"){
+   // thsi is yard to kilometer formula
+   result.value = Number(input.value) * 0.141584233;
+}else if(inputTypeValue === "yards" && resultTypeValue==="yards"){
+
+   // this is feet to feet formula
+    result.value = input.value
+  }
+
+  if(inputTypeValue === "miles" && resultTypeValue==="millimeters"){
+   // this is miles to millimeter formula
+   result.value = Number(input.value) * 764,554.87;
+}else if(inputTypeValue ==="miles" && resultTypeValue==="meters"){
+   // this is miles to meter formula
+   result.value = Number(input.value) * 764.55487;
+}else if(inputTypeValue === "miles" && resultTypeValue==="meters"){
+   // thsi is miles to meter formula
+   result.value = Number(input.value) * 0.764555;
+}else if(inputTypeValue === "miles" && resultTypeValue==="kilometers"){
+ // thsi is miles to kilometer formula
+ result.value = Number(input.value) * 0.764555;
+}else if(inputTypeValue === "miles" && resultTypeValue==="miles"){
+
+ // this is miles to miles formula
+  result.value = input.value
+}
+
+
+
+}
+</script>
+</html>

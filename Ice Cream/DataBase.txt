@@ -1,0 +1,56 @@
+Create Database IceCream
+
+use IceCream
+create table Administration(
+AdminID int Primary key identity,
+AdminName varchar(255),
+PhoneNo varchar(255),
+Email varchar(255),
+AdminPassword varchar(255)
+)
+
+create table Product(
+ID int Primary key identity,
+Title varchar(255),
+Flavor varchar(255),
+Descriptions varchar(255),
+Picture varchar(255),
+Price int
+)
+drop table Product
+create table Contact(
+ID int primary key identity,
+Username varchar(255),
+PhoneNo varchar(255),
+Email varchar(255),
+ContactMessage varchar(255)
+)
+
+drop  table Contact
+
+create table Contact(
+ID int primary key identity,
+Username varchar(255),
+Usersubject varchar(255),
+Useremail varchar(255),
+ContactMessage varchar(255)
+)
+
+create table Feedback(
+ID int primary key identity,
+Username varchar(255),
+Usersubject varchar(255),
+Useremail varchar(255),
+ContactMessage varchar(255),
+Ratting varchar(255)
+)
+create table Orders(
+ID int primary key identity,
+Username varchar(255),
+Useremail varchar(255),
+ContactDetails varchar(255),
+UserAddress  varchar(255),
+Cost varchar(255),
+PayingOption varchar(255),
+OrderStatus varchar(255)
+)
